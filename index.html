@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Fútbol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Página de Fútbol</h1>
+        <nav>
+            <ul>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="#jugadores">Jugadores</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="equipos">
+            <h2>Equipos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del Equipo</th>
+                        <th>Liga</th>
+                        <th>Puntos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Barcelona</td>
+                        <td>La Liga</td>
+                        <td>76</td>
+                    </tr>
+                    <tr>
+                        <td>Real Madrid</td>
+                        <td>La Liga</td>
+                        <td>75</td>
+                    </tr>
+                    <tr>
+                        <td>Bayern Múnich</td>
+                        <td>Bundesliga</td>
+                        <td>78</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="jugadores">
+            <h2>Jugadores</h2>
+            <form action="#">
+                <label for="jugador">Selecciona un Jugador:</label>
+                <select id="jugador">
+                    <option value="messi">Lionel Messi</option>
+                    <option value="cristiano">Cristiano Ronaldo</option>
+                    <option value="neymar">Neymar Jr.</option>
+                </select>
+                <input type="submit" value="Ver Detalles">
+            </form>
+        </section>
+
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <p>Últimas noticias del mundo del fútbol.</p>
+            <p>¡El Barcelona gana el campeonato!</p>
+        </section>
+
+        <section id="videos">
+            <h2>Videos</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Mejores goles de Messi</a></li>
+                <li><a href="https://www.youtube.com/watch?v=7wtXg7OcKYo" target="_blank">Resumen de la final de la Champions League</a></li>
+                <li><a href="https://www.youtube.com/watch?v=Z9kjb1zjXhM" target="_blank">Las mejores jugadas de Cristiano Ronaldo</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Página de Fútbol. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
